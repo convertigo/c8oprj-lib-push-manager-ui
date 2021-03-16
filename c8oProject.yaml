@@ -1,0 +1,11 @@
+↑convertigo: 7.7.0.m006
+↓lib_PushManager_ui [core.Project]: 
+  comment: This library handles push notification registers from mobile devices and holds a sample push notification sequence.
+  version: 7.9.0
+  ↓void [connectors.SqlConnector]: 🗏 connectors/void.yaml
+  ↓Project_reference [references.ProjectSchemaReference]: 
+    projectName: mobilebuilder_tpl_7_9_0=https://github.com/convertigo/c8oprj-mobilebuilder-tpl/archive/mobilebuilder_tpl_7_9_0.zip
+  ↓Project_reference1 [references.ProjectSchemaReference]: 
+    projectName: lib_PushManager=https://github.com/convertigo/c8oprj-lib-push-manager.git:branch=7.9.0
+  ↓MobileApplication [core.MobileApplication]: 
+    ↓Application [mobile.components.ApplicationComponent]: 🗏 mobileApplication.yaml
